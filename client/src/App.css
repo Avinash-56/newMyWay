@@ -1,0 +1,201 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.Icon {
+  top: 2px;
+  left: 98px;
+  width: 66px;
+  height: 66px;
+  background: transparent url("img/MyWaysLogo.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.dropdown {
+  position: fixed;
+  top: 24px;
+  left: 400px;
+  width: 58px;
+  height: 22px;
+  text-align: center;
+  font: normal normal normal 16px/22px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.instant-apply {
+  position: fixed;
+  top: 24px;
+  left: 671px;
+  width: 110px;
+  height: 22px;
+  text-align: center;
+  font: normal normal normal 16px/22px Open Sans;
+  letter-spacing: 0.49px;
+  color: #000000;
+  opacity: 1;
+}
+
+.pricing {
+  position: fixed;
+  top: 24px;
+  left: 827px;
+  width: 54px;
+  height: 22px;
+  text-align: center;
+  font: normal normal normal 16px/22px Open Sans;
+  letter-spacing: 0.49px;
+  color: #000000;
+  opacity: 1;
+}
+
+.about {
+  position: fixed;
+
+  top: 24px;
+  left: 927px;
+  width: 70px;
+  height: 22px;
+  text-align: center;
+  font: normal normal normal 16px/22px Open Sans;
+  letter-spacing: 0.49px;
+  color: #000000;
+  opacity: 1;
+}
+
+.signup-nav {
+  position: fixed;
+
+  top: 24px;
+  left: 1043px;
+  width: 64px;
+  height: 22px;
+  text-align: left;
+  font: normal normal 600 16px/22px Open Sans;
+  letter-spacing: 0px;
+  color: #7ecb20;
+  opacity: 1;
+}
+
+.login-nav {
+  position: fixed;
+  text-align: center;
+  top: 16px;
+  left: 1133px;
+  width: 134px;
+  height: 38px;
+  background: #7ecb20 0% 0% no-repeat padding-box;
+  border-radius: 19px;
+  opacity: 1;
+}
+
+.main-text {
+  position: fixed;
+  top: 211px;
+  left: 359px;
+  width: 648px;
+  height: 56px;
+  text-align: center;
+  font: normal normal bold 41px/56px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.get-started {
+  position: fixed;
+  top: 417px;
+  left: 614px;
+  width: 138px;
+  height: 33px;
+  text-align: center;
+  font: normal normal bold 24px/33px Open Sans;
+  letter-spacing: 0px;
+  color: black;
+  text-transform: capitalize;
+  opacity: 1s;
+}
+
+.get-started-back {
+  top: 407px;
+  left: 565px;
+  width: 236px;
+  height: 53px;
+  background: #7ecb20 0% 0% no-repeat padding-box;
+  border-radius: 27px;
+  opacity: 1;
+  position: fixed;
+}
+
+.login-form {
+  position: fixed;
+  top: 30%;
+  left: 1048px;
+  width: 418px;
+  height: 768px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.inner-login {
+  top: 174px;
+  left: 972px;
+  width: 370px;
+  height: 371px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 2.32;
+}
+
+.signup-form {
+  top: 20%;
+  left: 345px;
+  width: 676px;
+  height: 577px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 15px;
+  opacity: 1;
+  position: fixed;
+  text-align: center;
+}
+
+.form {
+  height: 50%;
+}
