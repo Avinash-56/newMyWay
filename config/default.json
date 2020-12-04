@@ -1,0 +1,6 @@
+{"mongoURI": "mongodb+srv://user:user@cluster0.hp1yt.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "JWTSecret": "Secret",
+    "Client_URL": "http://localhost:3000",
+    "DOMAIN": "sandboxe018decfd0cb4b049a24a7c3ed302dd3.mailgun.org",
+    "Mailgun_API": "663af108c45aac800346e4b6e5d24d67-95f6ca46-40441dfe"
+}
