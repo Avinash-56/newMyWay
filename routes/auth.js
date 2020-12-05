@@ -70,11 +70,14 @@ router.post(
       "Please enter password with atleast 6 characters"
     ).isLength({ min: 6 }),
   ],async (req, res) => {
+    console.log('before')
+
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
       return res.status("400").json({ errors: errors.array() });
     }
     const { name, email, password } = req.body;
+    console.log('befortry')
     try {
       let user = await User.findOne({ email });
       if (user) {
@@ -82,6 +85,8 @@ router.post(
           .status(400)
           .json({ errors: [{ msg: "user already exists" }] });
       }
+
+
       const token = jwt.sign(
         { name, email, password },
         config.get("JWTSecret"),

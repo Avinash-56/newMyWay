@@ -23,7 +23,7 @@ const useStyles = makeStyles({
 });
 
 
-const Login = ({setAlert, login})=> {
+const Login = ({ login})=> {
   const [formData, setFormData] = useState({
     email: "",
     password: "",

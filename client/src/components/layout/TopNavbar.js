@@ -48,4 +48,4 @@ const TopNavbar = () => {
 //   auth: state.auth
 // })
 
-export default connect()(TopNavbar);
+export default (TopNavbar);

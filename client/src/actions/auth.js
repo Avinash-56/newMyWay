@@ -48,7 +48,6 @@ export const changeSignupForm = () => async (dispatch) => {
 };
 
 export const register = ({ name, email, password }) => async (dispatch) => {
-  console.log('regg')
   const config = {
     headers: {
       "Content-Type": "application/json",
@@ -58,6 +57,7 @@ export const register = ({ name, email, password }) => async (dispatch) => {
   const body = JSON.stringify({ name, email, password });
 
   try {
+    console.log(body)
     const res = await axios.post("/api/auth/register", body, config);
     dispatch({
       type: REGISTER_SUCCESS,
