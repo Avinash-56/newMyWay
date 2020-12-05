@@ -9,6 +9,19 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import {setAlert} from '../../actions/alert'
 import { login } from "../../actions/auth";
 import {connect} from 'react-redux'
+import {makeStyles} from '@material-ui/core'
+
+
+const useStyles = makeStyles({
+  dialog: {
+    position: 'absolute',
+    left: 1140,
+    top: 50,
+    height: 500,
+    width: 350
+  }
+});
+
 
 const Login = ({setAlert, login})=> {
   const [formData, setFormData] = useState({
@@ -34,14 +47,19 @@ const Login = ({setAlert, login})=> {
   }
   const onChange = e =>
   setFormData({ ...formData, [e.target.id]: e.target.value });
+  const classes = useStyles();
 
 
   return (
+
     <div className="App">
       {/* <Button variant="outlined" color="primary" onClick={handleClickOpen} >
         Open Form
       </Button> */}
       <Dialog
+      classes={{
+        paper: classes.dialog
+      }}
         open={open}
         aria-labelledby="form-dialog-title"
       >
